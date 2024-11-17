@@ -1,0 +1,13 @@
+num1={1,2,3,4,5}
+num2=set([4,5,6,7,8])
+print(num1)
+print(num2)
+num2.add(9)
+print(num2)
+num2.remove(4)
+print(num2)
+print(4 in num2)
+print(4 not in num2)
+print(9 in num2)
+print(type(num1))
+print(type(num2))
