@@ -5,6 +5,7 @@ from sklearn.datasets import load_iris
 from sklearn.metrics import accuracy_score
 from sklearn.ensemble import StackingClassifier
 
+
 # Load dataset (example with Iris dataset)
 data = load_iris()
 X, y = data.data, data.target
